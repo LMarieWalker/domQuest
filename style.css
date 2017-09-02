@@ -1,0 +1,56 @@
+body {
+  background-image: url('fight.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  border: 5px solid lightgreen;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  background-color: #690;
+  margin: auto;
+  width: 30%;
+}
+
+.boxes {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 62px;
+  padding: 15px 0 15px 0;
+  width: 25%;
+  text-align: center;
+  background-color: #cf9;
+}
+
+.log {
+  border: 3px solid lightgreen;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  background-color: lightgrey;
+  margin: auto;
+  width: 30%;
+}
+
+button {
+  margin: 10px;
+}
+
+button:hover{
+  background-color: #4caf50;
+  color: white;
+}
+
+h3 {
+  margin: 10px;
+}
+
+#pageTitle {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}

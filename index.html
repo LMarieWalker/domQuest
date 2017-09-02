@@ -6,8 +6,38 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <div class="header">
+      <h1 id='pageTitle'>Dom Quest</h1>
+      <p>Your Cash: $ <u id='accumulator'>0.00</u></p>
+    </div>
 
 
+    <div class="boxes">
+      <h3>Small Quest</h3>
+      <p>Earns 10 - 20 gold</p>
+      <button type="button" name="smallButton" onclick="smallButtonClick()">Take Quest</button>
+    </div>
+
+    <div class="boxes">
+      <h3>Long Quest</h3>
+      <p>Earns 30 - 50 gold</p>
+      <button type="button" name="longButton" onclick="longButtonClick()">Take Quest</button>
+    </div>
+
+    <div class="boxes">
+      <h3>Boss Fight</h3>
+      <p>Earns 70 - 100 gold</p>
+      <button type="button" name="bossButton" onclick="bossButtonClick()">Take Quest</button>
+    </div>
+
+    <div class="log">
+      <h3>5 Most Recent Quests</h3>
+      <p id="smallList1">-</br>
+      <p id="smallList2">-</br></p>
+      <p id="smallList3">-</br></p>
+      <p id="smallList4">-</br></p>
+      <p id="smallList5">-</br></p>
+    </div>
 
     <script type="text/javascript" src="./app.js"></script>
   </body>
